@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(145, 145, 145);
+}
+ 
+.badan-utama{
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+ 
+
+.active{
+    background-color: rgb(41, 37, 37);
+    border-radius: 10px;
+}
+
+.tombol{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(41, 37, 37);
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    
+}
+.tombol:hover{
+    background-color: rgb(145, 145, 145);
+    transition-duration: 1s;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(65, 225, 78);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+ 
+header h2{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navigasi ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(65, 225, 78);
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+ 
+.navigasi li{
+    max-width: 400px;
+    float: left;
+}
+ 
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px ;
+}
+ 
+.navigasi li a:hover {
+    background-color:rgb(145, 145, 145);
+    transition-duration: 1s;
+    color: white;
+    border-radius: 10px;
+}
+
+.kotak{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+ 
+.kotak h3{
+    background-color: rgb(65, 225, 78);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}  
+
+.menu-kiri{
+    float: left;
+    width: 666px;
+}
+.menu-kanan{
+    float: right;
+    width: 667px;
+}
+
+.tampilannominal{
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(65, 225, 78);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+
+}
