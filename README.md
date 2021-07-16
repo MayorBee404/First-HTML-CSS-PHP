@@ -1,2 +1,2 @@
-# Aplikasi HTNL,CSS,PHP
+# Aplikasi HTML,CSS,PHP
 {ss1)(
